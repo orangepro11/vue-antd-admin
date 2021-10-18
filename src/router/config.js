@@ -35,17 +35,17 @@ const options = {
           component: () => import('@/pages/demo'),
         },
         {
-          path: 'parent1',
-          name: '父级路由1',
+          path: 'dashboard',
+          name: '仪表盘',
           meta: {
             icon: 'dashboard',
           },
           component: BlankView,
           children: [
             {
-              path: 'demo1',
-              name: '演示页面1',
-              component: () => import('@/pages/demo'),
+              path: 'workspace',
+              name: '工作空间',
+              component: () => import('@/pages/dashboard'),
             },
           ],
         },
