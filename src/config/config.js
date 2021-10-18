@@ -7,6 +7,7 @@ module.exports = {
   multiPage: true,
   animate: {
     name: 'lightSpeed',
-    direction: 'left'
-  }
+    direction: 'left',
+  },
+  asyncRoutes: false, //异步加载路由，true:开启，false:不开启
 }
